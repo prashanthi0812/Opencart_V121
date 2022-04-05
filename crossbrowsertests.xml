@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OpenCart Test Suite">
+
+	<test name="OpenCartChrome Tests">
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="testCases.TC_001_AccountRegistration"/>
+		</classes>
+	
+	</test>
+	<test name="OpenCartEdge Tests">
+	<parameter name="browser" value="edge"/>
+		<classes>
+			<class name="testCases.TC_001_AccountRegistration"/>
+		</classes>
+	
+	</test>
+	<test name="OpenCartfirefox Tests">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="testCases.TC_001_AccountRegistration"/>
+		</classes>
+	
+	</test>
+
+</suite>
